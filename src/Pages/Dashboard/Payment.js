@@ -15,7 +15,7 @@ const stripePromise = loadStripe('pk_test_51L1TpWGU2wvIXevfvFRcsBQjwexj7jfBVXtIV
 const Payment = () => {
     const [user]=useAuthState(auth)
     const {id}=useParams()
-    const {data:product,isLoading,refetch}=useQuery('users',()=>fetch(`http://localhost:5000/myorder/${id}`,{
+    const {data:product,isLoading,refetch}=useQuery('users',()=>fetch(`https://intense-inlet-37114.herokuapp.com/myorder/${id}`,{
   
     method:'GET',
     headers:{

@@ -7,7 +7,7 @@ import AllOrderRow from './AllOrderRow';
 const AllOrder = () => {
 
 
-    const {data:orders,isLoading,refetch}=useQuery('orders',()=>fetch('http://localhost:5000/order',{
+    const {data:orders,isLoading,refetch}=useQuery('orders',()=>fetch('https://intense-inlet-37114.herokuapp.com/order',{
   
     method:'GET',
     headers:{

@@ -7,7 +7,7 @@ import ManageRow from './ManageRow';
 const ManageProduct = () => {
 
 
-    const {data:products,isLoading,refetch}=useQuery('users',()=>fetch('http://localhost:5000/service',{
+    const {data:products,isLoading,refetch}=useQuery('users',()=>fetch('https://intense-inlet-37114.herokuapp.com/service',{
   
     method:'GET',
     headers:{

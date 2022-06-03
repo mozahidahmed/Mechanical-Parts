@@ -8,7 +8,7 @@ const AddProduct = () => {
 
     const onSubmit = data => {
 
-        const url='http://localhost:5000/service';
+        const url='https://intense-inlet-37114.herokuapp.com/service';
         fetch(url,{
         method:'POST',
         headers:{

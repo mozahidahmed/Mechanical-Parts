@@ -30,7 +30,7 @@ const BuyNow = () => {
         }
 
 
-        fetch('http://localhost:5000/order', {
+        fetch('https://intense-inlet-37114.herokuapp.com/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -70,7 +70,7 @@ const BuyNow = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
 
-        fetch(`http://localhost:5000/service/${id}`)
+        fetch(`https://intense-inlet-37114.herokuapp.com/service/${id}`)
             .then(res => res.json()).then(data => setServices(data))
 
 

@@ -8,7 +8,7 @@ const currentUser={email:email};
 
 
             if(email){
-                fetch(`http://localhost:5000/user/${email}`,{
+                fetch(`https://intense-inlet-37114.herokuapp.com/user/${email}`,{
                 method:'PUT',
                 headers:{
                     'content-type' : 'application/json'
@@ -48,7 +48,7 @@ export default useToken;
 
 
 //             if(email){
-//                 fetch(`http://localhost:5000/user/${email}`,{
+//                 fetch(`https://intense-inlet-37114.herokuapp.com/user/${email}`,{
 //                 method:'PUT',
 //                 headers:{
 //                     'content-type' : 'application/json'

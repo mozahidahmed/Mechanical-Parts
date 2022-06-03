@@ -5,7 +5,7 @@ const AllOrderRow = ({index,order,refetch}) => {
     const {productname,price,email,_id}=order;
      
     const handleDelete=()=>{
-   fetch(`http://localhost:5000/order/${_id}`,{
+   fetch(`https://intense-inlet-37114.herokuapp.com/order/${_id}`,{
        method:'DELETE',
        headers:{
         'content-type' : 'application/json'

@@ -14,7 +14,7 @@ const CheckoutForm = ({product}) => {
 
 
 useEffect(()=>{
-fetch('http://localhost:5000/create-payment-intent',{
+fetch('https://intense-inlet-37114.herokuapp.com/create-payment-intent',{
 method:'POST',
 headers:{
     'content-type' : 'application/json',
@@ -99,7 +99,7 @@ else{
         transactionId:paymentIntent
 
     }
-    fetch(`http://localhost:5000/myorder/${_id}`,{
+    fetch(`https://intense-inlet-37114.herokuapp.com/myorder/${_id}`,{
         method: 'PATCH',
         headers:{
             'content-type' : 'application/json',
@@ -202,7 +202,7 @@ export default CheckoutForm;
 //      const {price,email,name}=product;
 
 // useEffect(()=>{
-// fetch('http://localhost:5000/create-payment-intent',{
+// fetch('https://intense-inlet-37114.herokuapp.com/create-payment-intent',{
 // method:'POST',
 // headers:{
 //     'content-type' : 'application/json',
