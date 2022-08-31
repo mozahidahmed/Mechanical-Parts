@@ -6,13 +6,15 @@ import {getAuth} from 'firebase/auth';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBFJ4n09Q-xrUNWbSvrGtW-zp9awi5lfaI",
-  authDomain: "assignment-baro.firebaseapp.com",
-  projectId: "assignment-baro",
-  storageBucket: "assignment-baro.appspot.com",
-  messagingSenderId: "906026585475",
-  appId: "1:906026585475:web:1841cedba0157b46a2bab6"
-};
+    apiKey: "AIzaSyBFJ4n09Q-xrUNWbSvrGtW-zp9awi5lfaI",
+    authDomain: "assignment-baro.firebaseapp.com",
+    projectId: "assignment-baro",
+    storageBucket: "assignment-baro.appspot.com",
+    messagingSenderId: "906026585475",
+    appId: "1:906026585475:web:1841cedba0157b46a2bab6"
+  };
+
+
 
 
 
