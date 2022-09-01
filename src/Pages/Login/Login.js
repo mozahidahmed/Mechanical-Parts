@@ -147,10 +147,10 @@ const onSubmit = data =>
       <p>New to my company ?<Link to="/register"><span className='text-primary'>..Create New Acccotunt</span></Link></p>
     </form>
 
-          <div class="divider">OR</div>
+          {/* <div class="divider">OR</div>
           <button
            onClick={() =>signInWithGoogle()}
-          class="btn btn-outline">Continue with Google</button>
+          class="btn btn-outline">Continue with Google</button> */}
         </div>
       </div>
       </div>
