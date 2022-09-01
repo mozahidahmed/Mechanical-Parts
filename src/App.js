@@ -21,6 +21,7 @@ import ManageProduct from './Pages/Dashboard/ManageProduct';
 import AllOrder from './Pages/Dashboard/AllOrder';
 import Protofolio from './Pages/Home/Protofolio';
 import Payment from './Pages/Dashboard/Payment';
+import Gallery from './Pages/Home/Gallery';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
  <Route path='buynow/:id' element={<RequireAuth><BuyNow></BuyNow></RequireAuth>}></Route>
  <Route path='payment/:id' element={<Payment></Payment>}></Route>
  <Route path='devoloverprofile' element={<Protofolio></Protofolio>}></Route>
+ <Route path='gallery' element={<Gallery></Gallery>}></Route>
  
  
 

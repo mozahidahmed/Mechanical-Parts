@@ -16,7 +16,9 @@ fetch('https://intense-inlet-37114.herokuapp.com/reviews')
 
     return (
         <div className='mt-16'>
-            <h3  className='text-primary text-xl font-bold text-center'>CUSTOMER REVIEWS</h3>
+
+            <h1 className="text-3xl text-center text-primary font-bold">CUSTOMER <span className="text-black">REVIEWS</span></h1>
+
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-12 justify-center'>
                 {
                  reviews.map(review=><Review key={review._id} review={review}></Review>)

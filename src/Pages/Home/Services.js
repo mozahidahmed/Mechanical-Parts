@@ -17,7 +17,10 @@ fetch('https://intense-inlet-37114.herokuapp.com/service')
     return (
         <div className='my-20'>
            <div className='text-center  '>
-           <h3  className='text-primary text-xl font-bold'>OUR PRODUCTS</h3>
+
+           <h1 className="text-3xl text-center text-primary font-bold">OUR <span className="text-black">PRODUCTS</span></h1>
+
+           
            
            </div>
 

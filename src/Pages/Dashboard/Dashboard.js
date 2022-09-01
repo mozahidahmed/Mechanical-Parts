@@ -18,13 +18,13 @@ const Dashboard = () => {
         </div> 
         <div className="drawer-side">
           <label for="my-drawer-2" className="drawer-overlay"></label> 
-          <ul className="menu p-4 overflow-y-auto w-48 bg-base-100 text-base-content">
+          <ul className="menu p-4 overflow-y-auto w-48 bg-base-100 text-base-content bg-[#f2f2f2]">
             {/* <!-- Sidebar content here --> */}
             <li><Link to="/dashboard">Welcome</Link></li>
             <li><Link to="/dashboard/myorder">My Order</Link></li>
            
             {
-              !admin &&  <li><Link to="/dashboard/addreview">Add review</Link></li>
+              !admin &&  <li><Link  to="/dashboard/addreview">Add review</Link></li>
             }
             
             <li><Link to="/dashboard/myprofile">My profile</Link></li>

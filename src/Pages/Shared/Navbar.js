@@ -24,6 +24,7 @@ const Navbar = () => {
         
        
         <li className='text-black font-bold text-1xl'><Link to="/devoloverprofile">Protifolio</Link></li>
+        <li className='text-black font-bold text-1xl'><Link to="/gallery">Gallery</Link></li>
      
      
         <li>
@@ -47,7 +48,7 @@ const Navbar = () => {
         </>
       
     return (
-        <div className="navbar bg-primary px-12">
+        <div className="navbar bg-primary px-12 py-6">
         <div className="navbar-start ">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -60,7 +61,7 @@ const Navbar = () => {
             
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl font-bold">Mechanical Parts</a>
+          <a className="normal-case text-xl font-bold">Mechanical Parts</a>
           
         </div>
         <div className="navbar-center hidden lg:flex">

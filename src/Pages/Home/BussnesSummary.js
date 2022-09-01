@@ -9,7 +9,9 @@ const BussnesSummary = () => {
     return (
 
         <div className='mt-12'>
-            <h3  className='text-primary text-xl font-bold text-center'>BUSSENESS SUMARY</h3>
+   
+            <h1 className="text-3xl text-center text-primary font-bold">BUSSENESS <span className="text-black">SUMARY</span></h1>
+
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-12  mx-12 justify-center'>
                 
                 {/* .................................................................... */}
