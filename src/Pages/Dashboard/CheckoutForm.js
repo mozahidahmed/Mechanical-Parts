@@ -14,7 +14,7 @@ const CheckoutForm = ({product}) => {
 
 
 useEffect(()=>{
-fetch('https://intense-inlet-37114.herokuapp.com/create-payment-intent',{
+fetch('https://mechanicalparts.onrender.com/create-payment-intent',{
 method:'POST',
 headers:{
     'content-type' : 'application/json',
@@ -99,7 +99,7 @@ else{
         transactionId:paymentIntent
 
     }
-    fetch(`https://intense-inlet-37114.herokuapp.com/myorder/${_id}`,{
+    fetch(`https://mechanicalparts.onrender.com/myorder/${_id}`,{
         method: 'PATCH',
         headers:{
             'content-type' : 'application/json',
@@ -202,7 +202,7 @@ export default CheckoutForm;
 //      const {price,email,name}=product;
 
 // useEffect(()=>{
-// fetch('https://intense-inlet-37114.herokuapp.com/create-payment-intent',{
+// fetch('https://mechanicalparts.onrender.com/create-payment-intent',{
 // method:'POST',
 // headers:{
 //     'content-type' : 'application/json',

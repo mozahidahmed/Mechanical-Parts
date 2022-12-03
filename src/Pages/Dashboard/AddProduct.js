@@ -8,7 +8,7 @@ const AddProduct = () => {
 
     const onSubmit = data => {
 
-        const url='https://intense-inlet-37114.herokuapp.com/service';
+        const url='https://mechanicalparts.onrender.com/service';
         fetch(url,{
         method:'POST',
         headers:{

@@ -7,7 +7,7 @@ const Reviews = () => {
 
 useEffect(()=>{
 
-fetch('https://intense-inlet-37114.herokuapp.com/reviews')
+fetch('https://mechanicalparts.onrender.com/reviews')
 .then(res=>res.json()).then(data=>setReviews(data))
 
 

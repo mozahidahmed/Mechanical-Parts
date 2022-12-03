@@ -5,7 +5,7 @@ const UserRow = ({user,index,refetch}) => {
     const {email,role,_id} = user;
 
     const makeAdmin=()=>{
-        fetch(`https://intense-inlet-37114.herokuapp.com/user/admin/${email}`,{
+        fetch(`https://mechanicalparts.onrender.com/user/admin/${email}`,{
             method: 'PUT',
             headers:{
                 // 'content-type': 'application/json'

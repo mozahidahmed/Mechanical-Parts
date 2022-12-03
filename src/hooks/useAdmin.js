@@ -9,7 +9,7 @@ useEffect(()=>{
 
 const email=user?.email;
 if(email){
-    fetch(`https://intense-inlet-37114.herokuapp.com/admin/${email}`,{
+    fetch(`https://mechanicalparts.onrender.com/admin/${email}`,{
     method:'GET',
     headers:{
         'content-type' : 'application/json',

@@ -5,7 +5,7 @@ const ManageRow = ({product,index,refetch}) => {
     const {name,_id}=product;
 
     const handleDelete=()=>{
-      fetch(`https://intense-inlet-37114.herokuapp.com/service/${_id}`,{
+      fetch(`https://mechanicalparts.onrender.com/service/${_id}`,{
           method:'DELETE',
           headers:{
            'content-type' : 'application/json'

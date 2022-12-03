@@ -13,14 +13,14 @@ const Order = () => {
 //     useEffect(()=>{
     
 //  if(user){
-//     fetch(`https://intense-inlet-37114.herokuapp.com/myorder?email=${user.email}`)
+//     fetch(`https://mechanicalparts.onrender.com/myorder?email=${user.email}`)
 //     .then(res=>res.json())
 //     .then(data=>setOrders(data))
 //  }
     
     
 //     },[user])
-const {data:orders,isLoading,refetch}=useQuery('orders',()=>fetch(`https://intense-inlet-37114.herokuapp.com/myorder?email=${user.email}`,{
+const {data:orders,isLoading,refetch}=useQuery('orders',()=>fetch(`https://mechanicalparts.onrender.com/myorder?email=${user.email}`,{
   
   method:'GET',
   headers:{

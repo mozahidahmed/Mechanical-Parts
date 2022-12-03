@@ -8,7 +8,7 @@ const {productname,price,address,_id}=order;
 
 
 const handleDelete=()=>{
-   fetch(`https://intense-inlet-37114.herokuapp.com/myorder/${_id}`,{
+   fetch(`https://mechanicalparts.onrender.com/myorder/${_id}`,{
        method:'DELETE',
        headers:{
         'content-type' : 'application/json'

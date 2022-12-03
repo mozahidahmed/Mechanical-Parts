@@ -7,7 +7,7 @@ import AllOrderRow from './AllOrderRow';
 const AllOrder = () => {
 
 
-    const {data:orders,isLoading,refetch}=useQuery('orders',()=>fetch('https://intense-inlet-37114.herokuapp.com/order',{
+    const {data:orders,isLoading,refetch}=useQuery('orders',()=>fetch('https://mechanicalparts.onrender.com/order',{
   
     method:'GET',
     headers:{

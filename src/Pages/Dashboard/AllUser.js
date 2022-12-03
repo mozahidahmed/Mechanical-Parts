@@ -6,7 +6,7 @@ import UserRow from './UserRow';
 const AllUser = () => {
 
 
-    const {data:users,isLoading,refetch}=useQuery('users',()=>fetch('https://intense-inlet-37114.herokuapp.com/user',{
+    const {data:users,isLoading,refetch}=useQuery('users',()=>fetch('https://mechanicalparts.onrender.com/user',{
   
     method:'GET',
     headers:{
