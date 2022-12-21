@@ -12,7 +12,7 @@ const Service = ({ service }) => {
 
     return (
         <div>
-            <div className="card lg:max-w-lg bg-base-100 shadow-xl">
+            <div className="card lg:max-w-lg bg-base-100 shadow-xl p-6">
                 <figure className="px-10 pt-10 w-17">
                      <div className="avatar">
                          <div className="w-32  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -26,14 +26,16 @@ const Service = ({ service }) => {
                     <p className='text-black '>MinimumOrder <span className='text-primary font-bold'>:{minimumOrderQuantity}</span></p>
                     <p className='text-black '>Price <span className='text-primary font-bold'>:${price}</span></p>
                    {/* <p>{description}</p> */}
-
+{/* awars
+treepoll
+ui/ux design parten */}
 
                 </div>
 
                
             <Link to={`/buynow/${_id}`}>
              <div className="grid">
-             <button className="btn btn-primary text-white font-bold bg-gradient-to-r from-secondary-100 to-primary w-full">Buy Now</button>
+             <button className="btn-style  text-black font-bold bg-gradient-to-r from-secondary-100 to-primary w-full">Buy Now</button>
 
              </div>
             </Link>

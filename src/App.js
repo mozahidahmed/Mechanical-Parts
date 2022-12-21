@@ -26,7 +26,7 @@ import Gallery from './Pages/Home/Gallery';
 
 function App() {
   return (
-    <div className="">
+    <div className="mx-6">
       <Navbar></Navbar>
     <Routes>
 

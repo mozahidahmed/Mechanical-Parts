@@ -12,11 +12,11 @@ const BussnesSummary = () => {
    
             <h1 className="text-3xl text-center text-primary font-bold">BUSSENESS <span className="text-black">SUMARY</span></h1>
 
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-12  mx-12 justify-center'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12  mx-12 justify-center'>
                 
                 {/* .................................................................... */}
                 <div className=''>
-                    <div class="card w-96 bg-base-100 shadow-xl grid grid-cols justify-center p-10">
+                    <div class="card w-96 bg-base-100  shadow-xl grid grid-cols justify-center p-10">
                       <div>
                       <div className="avatar">
                              <div className="w-16  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">

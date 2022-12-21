@@ -1,17 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Service from './Service';
+import { useQuery } from 'react-query';
+import Loading from '../Shared/Loading';
 
 const Services = () => {
-    const [services,setServices]=useState([]);
+   
+
+ 
 
 
-useEffect(()=>{
 
-fetch('https://mechanicalparts.onrender.com/service')
-.then(res=>res.json()).then(data=>setServices(data))
+const {data:services,isLoading,refetch}=useQuery('services',()=>fetch('https://mechanicalparts.onrender.com/service',{
+  
+method:'GET',
+headers:{
+    'content-type': 'application/json'
+   
+}
 
-
-},[])
+}).then(res=>res.json()))
+if(isLoading){
+return <Loading></Loading>
+}
 
 
     return (
@@ -24,8 +34,8 @@ fetch('https://mechanicalparts.onrender.com/service')
            
            </div>
 
-                    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                        {services.map(service=>
+                    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12  mx-12 justify-center'>
+                        {services.slice(0,6).map(service=>
                        
                       <Service  key={service._id} service={service}></Service>
                         )}
