@@ -22,6 +22,7 @@ import AllOrder from './Pages/Dashboard/AllOrder';
 import Protofolio from './Pages/Home/Protofolio';
 import Payment from './Pages/Dashboard/Payment';
 import Gallery from './Pages/Home/Gallery';
+import SeeAllProducts from './Pages/Home/SeeAllProducts';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
  <Route path='payment/:id' element={<Payment></Payment>}></Route>
  <Route path='devoloverprofile' element={<Protofolio></Protofolio>}></Route>
  <Route path='gallery' element={<Gallery></Gallery>}></Route>
+ <Route path='home/seeallproducts' element={<SeeAllProducts/>}></Route>
  
  
 

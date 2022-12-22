@@ -25,3 +25,11 @@ text-align: justify;
   color:white
 }
 
+.tir-style{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+}
+.tir-style:hover{
+  background-color:#666699 ;
+}

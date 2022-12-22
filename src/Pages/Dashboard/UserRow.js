@@ -3,7 +3,6 @@ import { toast } from 'react-toastify';
 
 const UserRow = ({user,index,refetch}) => {
     const {email,role,_id} = user;
-
     const makeAdmin=()=>{
         fetch(`https://mechanicalparts.onrender.com/user/admin/${email}`,{
             method: 'PUT',

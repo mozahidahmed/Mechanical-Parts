@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const Service = ({ service }) => {
+const SeeAllProduct = ({ service }) => {
     const { _id, name,description, price, availableQuantity, minimumOrderQuantity, img } = service;
 
 
@@ -45,4 +45,4 @@ const Service = ({ service }) => {
     );
 };
 
-export default Service;
+export default SeeAllProduct;

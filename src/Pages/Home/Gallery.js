@@ -16,23 +16,40 @@ const Gallery = () => {
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://i.ibb.co/gWQ5VyC/pngtree-college-entrance-examination-student-exam-scene-png-image-2618540.jpg" />
+                                    src="https://i.ibb.co/dMPWdzZ/5.jpg" />
                             </div>
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                                     src="https://i.ibb.co/tbzV6kD/iamge3333333333333333.jpg" />
                             </div>
+                            <div className="w-full p-1 md:p-2">
+          
+                      <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="  https://i.ibb.co/dMPWdzZ/5.jpg " />
+                            </div>
                         </div>
                         <div className="flex flex-wrap w-1/2">
                             <div className="w-full p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-                                    src="https://i.ibb.co/pdJHwhL/mozahid2222222222222222.jpg
+                                    src="  https://i.ibb.co/dMPWdzZ/5.jpg 
                                     " />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
                                     src="
                                     https://i.ibb.co/pdJHwhL/mozahid2222222222222222.jpg" />
+                            </div>
+                            <div className="w-1/2 p-1 md:p-2">
+                                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="https://i.ibb.co/pdJHwhL/mozahid2222222222222222.jpg" />
+                            </div>
+                            <div className="w-1/2 p-1 md:p-2">
+                                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="https://i.ibb.co/pdJHwhL/mozahid2222222222222222.jpg" />
+                            </div>
+                            <div className="w-1/2 p-1 md:p-2">
+                                <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+                                    src="https://i.ibb.co/pdJHwhL/mozahid2222222222222222.jpg" />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"

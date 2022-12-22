@@ -42,9 +42,10 @@ return <Loading></Loading>
 <tbody>
 
 {
-users.map((user,index)=><UserRow user={user} index={index} refetch={refetch}></UserRow>  
+users?.map((user,index)=><UserRow user={user} index={index} refetch={refetch}></UserRow>  
 )
 }
+
 </tbody>
 </table>
               

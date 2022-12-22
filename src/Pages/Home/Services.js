@@ -2,6 +2,8 @@ import React from 'react';
 import Service from './Service';
 import { useQuery } from 'react-query';
 import Loading from '../Shared/Loading';
+import { BsArrowRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
    
@@ -25,7 +27,7 @@ return <Loading></Loading>
 
 
     return (
-        <div className='my-20'>
+        <div className='my-12'>
            <div className='text-center  '>
 
            <h1 className="text-3xl text-center text-primary font-bold">OUR <span className="text-black">PRODUCTS</span></h1>
@@ -40,9 +42,11 @@ return <Loading></Loading>
                       <Service  key={service._id} service={service}></Service>
                         )}
                     </div>
+<div className="flex justify-center items-center mt-2">
+    <div className=""><h1 className='grid justify-center font-bold'>See more Products </h1></div>
+    <Link to="seeallproducts"><div className="px-2 tir-style mx-2 fa-solid fa-shake"><BsArrowRight/></div></Link>
 
-
-
+</div>
 
 
         </div>

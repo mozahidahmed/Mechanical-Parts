@@ -91,14 +91,15 @@ const BuyNow = () => {
                 <div>
                     <h3 className='text-primary text-xl font-bold text-center'>PRODUCTS DETAILS</h3>
 
-                    <div class="card w-96 bg-base-100 shadow-xl image-full mt-6">
-                        <figure><img src={services.img} alt="Shoes" /></figure>
+                    <div class="card w-96 bg-base-100 shadow-xl h-[450px] image-full mt-6">
+                        <figure><img className='' src={services.img} alt="Shoes" /></figure>
                         <div class="card-body">
                             <div>
                                 <h2 class="card-title">{services.name}</h2>
                                 <p>availableQuantity:{services.availableQuantity}</p>
                                 <p>minimumOrderQuantity:{services.minimumOrderQuantity}</p>
                                 <p>price:{services.price}</p>
+                                <p>{services.description}</p>
 
                             </div>
 
@@ -110,7 +111,7 @@ const BuyNow = () => {
 
                 <div>
                     <h3 className='text-primary text-xl font-bold text-center'>ORDER NOW</h3>
-                    <div className='card lg:max-w-lg bg-base-100 shadow-xl mt-6'>
+                    <div className='card lg:max-w-lg bg-base-100 shadow-xl mt-6 p-2'>
                         <form onSubmit={handleOrder} className='grid grid-cols-1 gap-3 justify-items-center mt-4'>
                             <label></label>
                             <input name="email" placeholder="Y O U E M A I L " class="input input-bordered w-full max-w-xs" value={user.email} readOnly disabled />

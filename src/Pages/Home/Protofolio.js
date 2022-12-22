@@ -6,28 +6,30 @@ import Skill from './Skill';
 
 const Protofolio = () => {
     return (
-        <div className='grid grid-cols mt-6'>
-            <div className='flex justify-center'>
-            <div class="hero  bg-base-200 p-32">
-                <div class="hero-content flex-col lg:flex-row-reverse">
+   
+      <div className="">
+         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mt-2  items-center'>
 
-                    <div class="avatar">
-                        <div class="w-64 mask mask-hexagon">
-                            <img src="https://i.ibb.co/4SWW1VJ/mozahid-mozahid.jpg" alt="sorry" />
-                        </div>
-                    </div>
+          <div>
+            
+          <img src="https://i.ibb.co/rfXkJZx/20220915-150119.jpg" class="w-50 shadow-5xl" />
+          </div>
 
-
-
-                    <div>
-                        <h1 class="text-5xl font-bold">I'm <span className='text-primary'>MOZAHID</span></h1>
-                        <p class="py-6 font-bold text-primary text-2xl">Web Developer</p>
+            <div className="">
+            <h1 class="mb-5 text-2xl font-bold">Who am I?</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum vel minus corrupti accusamus! Iusto, vel vitae tempora consequuntur ab sed, corrupti incidunt aliquam nisi est iure ipsa eum commodi veritatis ea ipsam quia delectus rem perspiciatis culpa voluptas dolorum. Officia, eum 
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum vel minus corrupti accusamus! Iusto, vel vitae tempora consequuntur ab sed, corrupti incidunt aliquam nisi est iure ipsa eum commodi veritatis ea ipsam quia delectus rem perspiciatis culpa voluptas dolorum. Officia, eum 
 
 
-                    </div>
-                </div>
+        
+    </p>
+         
             </div>
-            </div>
+        
+        </div>
+
+
+       
 
 
 
