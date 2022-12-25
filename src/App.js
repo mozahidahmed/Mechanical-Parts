@@ -27,7 +27,7 @@ import SeeAllProducts from './Pages/Home/SeeAllProducts';
 
 function App() {
   return (
-    <div className="mx-6">
+    <div className="px-6">
       <Navbar></Navbar>
     <Routes>
 
