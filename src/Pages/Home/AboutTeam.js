@@ -12,7 +12,7 @@ const AboutTeam = () => {
 
 
                 {/* ......................... */}
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-64 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
@@ -32,7 +32,7 @@ const AboutTeam = () => {
                 </div>
                 {/* ......................... */}
                 {/* ......................... */}
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-64 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
@@ -53,7 +53,7 @@ const AboutTeam = () => {
                 {/* ......................... */}
 
                 {/* ......................... */}
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-64 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10 w-25%">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
