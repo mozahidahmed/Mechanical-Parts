@@ -2,17 +2,17 @@ import React from 'react';
 
 const AboutTeam = () => {
     return (
-        <div className='grid justify-center mt-16 mb-16'>
+        <div className=' mt-16 mb-16'>
             <h1 className="text-3xl text-center text-primary font-bold">OUR <span className="text-black">TEAM</span></h1>
 
 
             {/* .............................................................. */}
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12  mx-12 justify-center'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12  mx-6 '>
 
 
 
                 {/* ......................... */}
-                <div className="card w-64 bg-base-100 shadow-xl">
+                <div className="card w-84 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
@@ -32,7 +32,7 @@ const AboutTeam = () => {
                 </div>
                 {/* ......................... */}
                 {/* ......................... */}
-                <div className="card w-64 bg-base-100 shadow-xl">
+                <div className="card w-84 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
@@ -53,7 +53,7 @@ const AboutTeam = () => {
                 {/* ......................... */}
 
                 {/* ......................... */}
-                <div className="card w-64 bg-base-100 shadow-xl">
+                <div className="card w-84 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10 w-25%">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
