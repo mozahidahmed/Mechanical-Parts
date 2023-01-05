@@ -16,7 +16,7 @@ const BussnesSummary = () => {
                 
                 {/* .................................................................... */}
                 <div className=''>
-                    <div class="card w-96 bg-base-100  shadow-xl grid grid-cols justify-center p-5">
+                    <div class="card w-64 bg-base-100  shadow-xl grid grid-cols justify-center p-5">
                       <div>
                       <div className="avatar">
                              <div className="w-16  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -35,7 +35,7 @@ const BussnesSummary = () => {
                 {/* .................................................................... */}
                 {/* .................................................................... */}
                 <div className=''>
-                    <div class="card w-96 bg-base-100 shadow-xl grid grid-cols justify-center p-5">
+                    <div class="card w-64 bg-base-100 shadow-xl grid grid-cols justify-center p-5">
                       <div>
                       <div className="avatar">
                              <div className="w-16  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -54,7 +54,7 @@ const BussnesSummary = () => {
                 {/* .................................................................... */}
                 {/* .................................................................... */}
                 <div className=''>
-                    <div class="card w-96 bg-base-100 shadow-xl grid grid-cols justify-center p-5">
+                    <div class="card w-64 bg-base-100 shadow-xl grid grid-cols justify-center p-5">
                       <div>
                       <div className="avatar">
                              <div className="w-16  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
