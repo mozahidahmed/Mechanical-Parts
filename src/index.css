@@ -33,3 +33,7 @@ text-align: justify;
 .tir-style:hover{
   background-color:#666699 ;
 }
+
+.navbar{
+  border-bottom: 1px solid #a6a6d8;
+}

@@ -8,7 +8,7 @@ import Slider from './Slider';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='px-6'>
                <Slider></Slider>
                <Hero></Hero>
                <Services></Services>

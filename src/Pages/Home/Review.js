@@ -16,8 +16,8 @@ const Review = ({ review }) => {
                   </div>
                 </div>
                 <div className="">
-                    <p className='font-bold'>{name}</p>
-                     {description}
+                    <p className='font-bold '>{name}</p>
+                     {description.slice(20.40)}
                 </div>
                 </div>
 

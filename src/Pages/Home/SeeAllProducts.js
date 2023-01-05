@@ -20,7 +20,7 @@ return <Loading></Loading>
 <div className='my-12'>
            <div className='text-center  '>
 
-           <h1 className="text-3xl text-center text-primary font-bold">OUR <span className="text-black">PRODUCTS</span></h1>
+           <h1 className="text-3xl text-center text-primary font-bold">OUR ALL <span className="text-black">PRODUCTS</span></h1>
 
            
            

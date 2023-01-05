@@ -7,7 +7,7 @@ const AboutTeam = () => {
 
 
             {/* .............................................................. */}
-            <div className='card  mt-6   grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  justify-center p-6 gap-5'>
+            <div className='card    grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  justify-center p-6 gap-5'>
 
 
 
