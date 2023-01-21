@@ -1,11 +1,16 @@
-import React from 'react';
-
+import React from "react";
+import loading from "../../assets/loading.gif";
 const Loading = () => {
-    return (
-        <div className='mt-16 mx-12'>
-         <button class="btn loading btn-4xl">loading..............................................</button>
-        </div>
-    );
+  const style = {
+    background: `radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%)`,
+  };
+
+  return (
+    <div className='relative flex justify-center items-center h-screen w-full'>
+      <div style={style} className=' h-[200px] w-[200px] absolute top-0'></div>
+      <img  src={loading} className='h-[200px] w-[200px]' alt='' />
+    </div>
+  );
 };
 
 export default Loading;

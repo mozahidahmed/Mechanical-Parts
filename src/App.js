@@ -23,6 +23,7 @@ import Protofolio from './Pages/Home/Protofolio';
 import Payment from './Pages/Dashboard/Payment';
 import Gallery from './Pages/Home/Gallery';
 import SeeAllProducts from './Pages/Home/SeeAllProducts';
+import Blog from './Pages/Home/Blog';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
  <Route path="allorder" element={<AllOrder/>}></Route>
 
 
+
  
  </Route>
 
@@ -65,7 +67,7 @@ function App() {
 
  <Route path='login' element={<Login></Login>}></Route>
  <Route path='register' element={<Register></Register>}></Route>
-
+ <Route path="blog" element={<Blog/>}></Route>
      
  </Routes>
 

@@ -5,6 +5,9 @@ import BussnesSummary from './BussnesSummary';
 import Reviews from './Reviews';
 import Services from './Services';
 import Slider from './Slider';
+import JoinOurCompany from './JoinOurCompany';
+import Company from './Company';
+
 
 const Home = () => {
     return (
@@ -14,7 +17,10 @@ const Home = () => {
                <Services></Services>
                <BussnesSummary></BussnesSummary>
                <Reviews></Reviews>
+            
                <AboutTeam></AboutTeam>
+               <JoinOurCompany/>
+               <Company/>
 
         </div>
     );
