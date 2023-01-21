@@ -1,6 +1,12 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const AboutTeam = () => {
+    useEffect(() => {
+        AOS.init({duration:2000})
+  
+    }, []);
     return (
         <div className=' mt-16 mb-16'>
             <h1 className="text-3xl text-center text-primary font-bold">OUR <span className="text-black">TEAM</span></h1>
@@ -12,7 +18,7 @@ const AboutTeam = () => {
 
 
                 {/* ......................... */}
-                <div className="card w-84 bg-base-100 shadow-xl">
+                <div data-aos="zoom-in"  className="card w-84 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
@@ -32,7 +38,7 @@ const AboutTeam = () => {
                 </div>
                 {/* ......................... */}
                 {/* ......................... */}
-                <div className="card w-84 bg-base-100 shadow-xl">
+                <div data-aos="zoom-in"  className="card w-84 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>
@@ -53,7 +59,7 @@ const AboutTeam = () => {
                 {/* ......................... */}
 
                 {/* ......................... */}
-                <div className="card w-84 bg-base-100 shadow-xl">
+                <div data-aos="zoom-in"  className="card w-84 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10 w-25%">
                         <img className="mask mask-circle w-[150px]" src="https://i.ibb.co/Rp4khnx/pngwing-com.png" />
                     </figure>

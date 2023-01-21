@@ -1,11 +1,13 @@
 import React from 'react';
 
+
 const Hero = () => {
+
     return (
 
       <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 mt-2  items-center'>
 
-          <div>
+          <div >
             
           <img src="https://i.ibb.co/hBmD8nK/istockphoto-1191778420-612x612.jpg" class="w-90 shadow-5xl" />
           </div>

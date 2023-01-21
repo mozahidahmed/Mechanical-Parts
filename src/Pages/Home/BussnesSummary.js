@@ -1,8 +1,16 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+
 
 const BussnesSummary = () => {
 
    
+    useEffect(() => {
+        AOS.init({duration:2000})
+  
+    }, []);
  
 
     return (
@@ -14,7 +22,7 @@ const BussnesSummary = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12  mx-12 justify-center'>
                 
                 {/* .................................................................... */}
-                <div className=''>
+                <div data-aos="zoom-in" className=''>
                     <div class="card w-96 bg-base-100  shadow-xl grid grid-cols justify-center p-5">
                       <div>
                       <div className="avatar">
@@ -33,7 +41,7 @@ const BussnesSummary = () => {
                 </div>
                 {/* .................................................................... */}
                 {/* .................................................................... */}
-                <div className=''>
+                <div data-aos="zoom-in" className=''>
                     <div class="card w-96 bg-base-100 shadow-xl grid grid-cols justify-center p-5">
                       <div>
                       <div className="avatar">
@@ -52,7 +60,7 @@ const BussnesSummary = () => {
                 </div>
                 {/* .................................................................... */}
                 {/* .................................................................... */}
-                <div className=''>
+                <div data-aos="zoom-in" className=''>
                     <div class="card w-96 bg-base-100 shadow-xl grid grid-cols justify-center p-5">
                       <div>
                       <div className="avatar">

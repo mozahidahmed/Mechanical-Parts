@@ -1,5 +1,8 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { Link } from 'react-router-dom';
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
@@ -8,11 +11,14 @@ import { Link } from 'react-router-dom';
 const Service = ({ service }) => {
     const { _id, name,description, price, availableQuantity, minimumOrderQuantity, img } = service;
 
-
+    useEffect(() => {
+        AOS.init({duration:2000})
+  
+    }, []);
 
     return (
         <div>
-            <div className="card lg:max-w-lg bg-base-100 shadow-xl p-6">
+            <div data-aos="zoom-in" className="card lg:max-w-lg bg-base-100 shadow-xl p-6">
                 <figure className="px-10 pt-10 w-17">
                      <div className="avatar">
                          <div className="w-32  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
