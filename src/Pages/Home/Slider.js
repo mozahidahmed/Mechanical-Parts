@@ -1,37 +1,43 @@
 import React from 'react';
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Pagination } from "swiper";
 
 
 
 const Slider = () => {
     return (
-        <div className='py-2'>
-        
-            <div className="carousel carousel-center w-full py-2 space-x-4 rounded-box">
-  <div className="carousel-item h-[150px]">
- 
-    <img src="https://i.ibb.co/dMPWdzZ/5.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item h-[150px]">
-    <img src="https://i.ibb.co/MMh6dbQ/4.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item h-[150px]">
-    <img src="https://i.ibb.co/NVHCmF9/6.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item h-[150px]">
-    <img src="https://i.ibb.co/dMPWdzZ/5.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item h-[150px]">
-    <img src="https://i.ibb.co/MMh6dbQ/4.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item h-[150px]">
-    <img src="https://i.ibb.co/MMh6dbQ/4.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item h-[150px]">
-    <img src="https://i.ibb.co/MMh6dbQ/4.jpg" className="rounded-box" />
-  </div>
-</div>
-
-        </div>
+      <div className="py-2">
+        <Swiper
+          pagination={true}
+          className="text-white"
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/vw1tzP5/pexels-dan-cristian-p-dure-1476318-1.jpg"
+              className="h-[500px] shadow-5xl"
+              alt="h"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/c6ZpX2f/pexels-shane-aldendorff-924675.jpg"
+              className="h-[500px] shadow-5xl"
+              alt="h"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://i.ibb.co/9ts96hN/pexels-pixabay-209666.jpg"
+              className="h-[500px] shadow-5xl"
+              alt="h"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
     );
 };
 
