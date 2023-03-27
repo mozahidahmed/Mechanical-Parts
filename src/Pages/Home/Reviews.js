@@ -24,16 +24,17 @@ return <Loading></Loading>
 
 
     return (
-        <div className='mt-16'>
+      <div className="mt-16 bg-[#F73775] rounded-xl">
+        <h1 className="text-3xl text-center text-white font-bold py-6">
+          CUSTOMER <span className="text-black ">REVIEWS</span>
+        </h1>
 
-            <h1 className="text-3xl text-center text-primary font-bold">CUSTOMER <span className="text-black">REVIEWS</span></h1>
-
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12  mx-12 justify-center'>
-                {
-                 reviews.map(review=><Review key={review._id} review={review}></Review>)
-                }
-            </div>
+        <div className="grid py-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12   mx-12 justify-center">
+          {reviews.map((review) => (
+            <Review key={review._id} review={review}></Review>
+          ))}
         </div>
+      </div>
     );
 };
 

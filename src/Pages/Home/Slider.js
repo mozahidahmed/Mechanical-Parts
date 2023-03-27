@@ -2,17 +2,11 @@ import React from 'react';
 
 
 
-// 
-// 
-// 
-// 
-
-
-
 const Slider = () => {
     return (
-        <div className=''>
-            <div className="carousel carousel-center w-full p-4 space-x-4 rounded-box">
+        <div className='py-2'>
+        
+            <div className="carousel carousel-center w-full py-2 space-x-4 rounded-box">
   <div className="carousel-item h-[150px]">
  
     <img src="https://i.ibb.co/dMPWdzZ/5.jpg" className="rounded-box" />

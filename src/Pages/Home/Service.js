@@ -18,7 +18,7 @@ const Service = ({ service }) => {
 
     return (
         <div>
-            <div data-aos="zoom-in" className="card lg:max-w-lg bg-base-100 shadow-xl p-6">
+            <div data-aos="zoom-in" className="card glass lg:max-w-lg bg-base-100 shadow-xl p-6">
                 <figure className="px-10 pt-10 w-17">
                      <div className="avatar">
                          <div className="w-32  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
