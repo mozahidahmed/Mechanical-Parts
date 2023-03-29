@@ -14,7 +14,7 @@ const SeeAllProduct = ({ service }) => {
     return (
         <div>
             <div className="glass">
-                <img src="https://i.ibb.co/9ts96hN/pexels-pixabay-209666.jpg" alt="" />
+                <img src={img} alt="" className="h-[200px]"/>
                 <div className="py-2 p-2">
 
                     <h2 className='text-2xl font-bold'>{name}</h2>
