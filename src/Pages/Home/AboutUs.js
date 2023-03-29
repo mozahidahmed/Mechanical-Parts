@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BussnesSummary from "./BussnesSummary";
+import BusinessSummary from "./BusinessSummary/BusinessSummary";
+import PeopleSummary from "./PeopleSummary";
 import SixCard from "./SixCard";
 
 const AboutUs = () => {
@@ -39,7 +40,8 @@ const AboutUs = () => {
         </div>
       </div>
       <SixCard />
-      <BussnesSummary />
+      <BusinessSummary/>
+      <PeopleSummary />
     </div>
   );
 };

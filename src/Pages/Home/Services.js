@@ -36,8 +36,8 @@ return <Loading></Loading>
            
            </div>
 
-                    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12  mx-12 justify-center'>
-                        {services.slice(0,6).map(service=>
+                    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mt-12  mx-12 justify-center'>
+                        {services.slice(0,8).map(service=>
                        
                       <Service  key={service._id} service={service}></Service>
                         )}

@@ -9,13 +9,17 @@ import AboutUs from './AboutUs';
 import LatestProduct from './LatestProduct';
 
 
+
+
 const Home = () => {
     return (
       <div className="px-6">
         <Slider></Slider>
+
         <Services></Services>
         <LatestProduct />
         <AboutUs />
+    
         <Reviews></Reviews>
 
         <AboutTeam></AboutTeam>
