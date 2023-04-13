@@ -8,7 +8,7 @@ import { Pagination } from "swiper";
 
 const Slider = () => {
     return (
-      <div className="py-2">
+      <div className=" bg-gray-200">
         <Swiper
           pagination={true}
           className="text-white"

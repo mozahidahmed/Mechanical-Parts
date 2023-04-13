@@ -32,13 +32,13 @@ const Navbar = () => {
          { 
          user?
          <>
-         <Link className='text-black font-bold text-1xl' to="/dashboard">dashboard</Link>
-         <button onClick={logout} class="btn btn-active btn-ghost text-black font-bold text-1xl">SignOut</button>
+                    <Link className='text-black bg-[#F73775] lg:me-4 font-bold text-1xl' to="/dashboard">Dashboard</Link>
+                    <button onClick={logout} class="btn  bg-yellow-400  lg:mx-2 hover:bg-yellow-400 text-black font-bold text-1xl">SignOut</button>
   
          </>
          :
        
-         <Link className='text-black font-bold text-1xl' to="/login">Login</Link>
+         <Link className='text-black font-bold text-1xl bg-yellow-400 rounded-xl' to="/login">Login</Link>
          
          
          
@@ -49,7 +49,7 @@ const Navbar = () => {
         </>
       
     return (
-        <div className="navbar  bg-gray-200 flex  justify-between bg-opacity-200 p-4 px-6 sticky top-0 z-[50]">
+        <div className="navbar  bg-gray-100 flex shadow-2xl  justify-between bg-opacity-200 p-4 px-6 sticky top-0 z-[50]">
         <div className="navbar-start ">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">

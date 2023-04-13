@@ -10,9 +10,17 @@ const Footer = () => {
     <a className="text-black">Design</a> 
     <a className="text-black">Marketing</a> 
     <a className="text-black">Advertisement</a>
+    <a className="text-black">Branding</a> 
+    <a className="text-black">Design</a> 
+    <a className="text-black">Marketing</a> 
+    <a className="text-black">Advertisement</a>
   </div> 
   <div>
   <span className="text-black font-bold">COMPANY</span> 
+    <a className="text-black">About us</a> 
+    <a className="text-black">Contact</a> 
+    <a className="text-black">Jobs</a> 
+    <a className="text-black">Press kit</a>
     <a className="text-black">About us</a> 
     <a className="text-black">Contact</a> 
     <a className="text-black">Jobs</a> 

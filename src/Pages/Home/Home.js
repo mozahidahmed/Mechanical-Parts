@@ -13,18 +13,20 @@ import LatestProduct from './LatestProduct';
 
 const Home = () => {
     return (
-      <div className="px-6">
+      <div className="">
         <Slider></Slider>
 
-        <Services></Services>
-        <LatestProduct />
-        <AboutUs />
-    
-        <Reviews></Reviews>
+        <div className="px-6">
+          <Services></Services>
+          <LatestProduct />
+          <AboutUs />
 
-        <AboutTeam></AboutTeam>
-        <JoinOurCompany />
-        <Company />
+          <Reviews></Reviews>
+
+          <AboutTeam></AboutTeam>
+          <JoinOurCompany />
+          <Company />
+        </div>
       </div>
     );
 };
