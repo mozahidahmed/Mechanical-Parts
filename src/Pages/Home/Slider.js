@@ -1,43 +1,36 @@
 import React from 'react';
-import "swiper/css/pagination";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Pagination } from "swiper";
 
 
 
 const Slider = () => {
     return (
-      <div className=" bg-gray-200">
-        <Swiper
-          pagination={true}
-          className="text-white"
-          modules={[Pagination]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
+    <div className=" bg-black px-6 py-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12   justify-center items-center">
+          <div className='text-white'>
+            <h1 className="lg:text-5xl font-bold mb-4 ">
+              mechanical_parts.com
+            </h1>
+
+            <p className='mb-4'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+              veritatis praesentium quas optio facilis rerum possimus, culpa eum
+              aliquam pariatur neque repellat ratione exercitationem iusto.
+              Recusandae, repudiandae laborum? Ipsa, ea.
+            </p>
+            <button className="btn btn-outline hover:bg-[#F73775]  text-white">Shop Now Your Product</button>
+          </div>
+          <div className="flex justify-center">
             <img
-              src="https://i.ibb.co/vw1tzP5/pexels-dan-cristian-p-dure-1476318-1.jpg"
-              className="h-[500px] shadow-5xl"
-              alt="h"
+              src="https://i.ibb.co/mh1JXcc/different-car-accessories-composition-removebg-preview.png"
+              alt=""
+              className=''
+
+              
             />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://i.ibb.co/c6ZpX2f/pexels-shane-aldendorff-924675.jpg"
-              className="h-[500px] shadow-5xl"
-              alt="h"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://i.ibb.co/9ts96hN/pexels-pixabay-209666.jpg"
-              className="h-[500px] shadow-5xl"
-              alt="h"
-            />
-          </SwiperSlide>
-        </Swiper>
+          </div>
+        </div>
       </div>
+   
     );
 };
 
