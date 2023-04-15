@@ -1,36 +1,36 @@
 import React from 'react';
-import AboutTeam from './AboutTeam';
-import Reviews from './Reviews';
-import Services from './Services';
-import Slider from './Slider';
-import JoinOurCompany from './JoinOurCompany';
-import Company from './Company';
-import AboutUs from './AboutUs';
-import LatestProduct from './LatestProduct';
-import Categories from './Categories';
+import AboutTeam from './OtherSection/AboutTeam';
+import Reviews from './Review/Reviews';
+import Services from './Service/Services';
+import Slider from '../Home/OtherSection/Slider';
+import JoinOurCompany from '../Home/OtherSection/JoinOurCompany';
+import Company from '../Home/OtherSection/Company';
+import AboutUs from '../Home/OtherSection/AboutUs';
+import LatestProduct from '../Home/OtherSection/LatestProduct';
+import Categories from '../Home/OtherSection/Categories';
 
 
 
 
 const Home = () => {
-    return (
-      <div className="">
-        <Slider></Slider>
+  return (
+    <div className="">
+      <Slider></Slider>
 
-        <div className="px-6">
-          <Categories/>
-          <Services></Services>
-          <LatestProduct />
-          <AboutUs />
+      <div className="px-6">
+        <Categories />
+        <Services></Services>
+        <LatestProduct />
+        <AboutUs />
 
-          <Reviews></Reviews>
+        <Reviews></Reviews>
 
-          <AboutTeam></AboutTeam>
-          <JoinOurCompany />
-          <Company />
-        </div>
+        <AboutTeam></AboutTeam>
+        <JoinOurCompany />
+        {/* <Company /> */}
       </div>
-    );
+    </div>
+  );
 };
 
 export default Home;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BusinessSummary from "./BusinessSummary/BusinessSummary";
+import BusinessSummary from "./BusinessSummary";
 import PeopleSummary from "./PeopleSummary";
 import SixCard from "./SixCard";
 
@@ -40,7 +40,7 @@ const AboutUs = () => {
         </div>
       </div>
       <SixCard />
-      <BusinessSummary/>
+      <BusinessSummary />
       <PeopleSummary />
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import Service from './Service';
 import { useQuery } from 'react-query';
-import Loading from '../Shared/Loading';
+import Loading from '../../Shared/Loading';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ const Services = () => {
         <div className='my-12'>
             <div className='text-center  '>
 
-                <h1 className="text-3xl text-center text-primary font-bold">OUR_Available<span className="text-black">_PRODUCTS</span></h1>
+                <h1 className="lg:text-3xl text-center text-primary font-bold">Our_Available<span className="text-black">_Products</span></h1>
 
 
 
@@ -44,7 +44,7 @@ const Services = () => {
             </div>
             <div className="flex justify-center items-center mt-2">
                 <div className=""><h1 className='grid justify-center font-bold'>See more Products </h1></div>
-                <Link to="seeallproducts"><div className="px-2 tir-style mx-2 fa-solid fa-shake"><BsArrowRight /></div></Link>
+                <Link to="/products"><div className="px-2 tir-style mx-2 fa-solid fa-shake"><BsArrowRight /></div></Link>
 
             </div>
 
