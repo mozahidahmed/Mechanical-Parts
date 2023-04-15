@@ -20,7 +20,7 @@ const SeeAllProduct = ({ service }) => {
     return (
         <div>
             <div data-aos="zoom-in" className="glass ">
-                <img src={img} className="h-[200px]" alt="something wrong" />
+                <img src={img} className="h-[200px] w-full" alt="something wrong" />
                 <div className="p-2">
 
                     <div className="flex justify-between">

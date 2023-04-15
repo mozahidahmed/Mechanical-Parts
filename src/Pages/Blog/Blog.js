@@ -9,7 +9,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2  hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -23,7 +23,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-brakes.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-brakes.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -37,7 +37,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
+                            <img className='w-full h-[300px]' src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -51,7 +51,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
+                            <img className='w-full h-[300px]' src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -66,7 +66,7 @@ const Blog = () => {
                 <div className="grid justify-center border  ">
                     <div className="p-5 ">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-car-care.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-car-care.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -79,21 +79,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
-
-                        </div>
-                        <div className="mt-2 hover:text-[#F73775]">
-                            <h1 className="text-center font-bold">Auto Safety & Security</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa repellendus earum aliquam commodi nemo ipsum consequuntur cumque soluta magni! Sequi, obcaecati sit. Animi nulla odio, blanditiis possimus nobis est, quasi dolorum voluptatibus officia quia vel ratione quidem ab recusandae necessitatibus.</p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div className="grid justify-center border">
-                    <div className="p-5">
-                        <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -107,7 +93,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -121,7 +107,21 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+
+                        </div>
+                        <div className="mt-2 hover:text-[#F73775]">
+                            <h1 className="text-center font-bold">Auto Safety & Security</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa repellendus earum aliquam commodi nemo ipsum consequuntur cumque soluta magni! Sequi, obcaecati sit. Animi nulla odio, blanditiis possimus nobis est, quasi dolorum voluptatibus officia quia vel ratione quidem ab recusandae necessitatibus.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div className="grid justify-center border">
+                    <div className="p-5">
+                        <div className='border rounded-xl p-2 hover:bg-primary'>
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -135,7 +135,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2  hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -149,7 +149,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-brakes.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-brakes.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -163,7 +163,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
+                            <img className='w-full h-[300px]' src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -177,7 +177,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-filters.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-filters.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -191,7 +191,7 @@ const Blog = () => {
                 <div className="grid justify-center border  ">
                     <div className="p-5 ">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-car-care.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-car-care.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -204,21 +204,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
-
-                        </div>
-                        <div className="mt-2 hover:text-[#F73775]">
-                            <h1 className="text-center font-bold">Auto Safety & Security</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa repellendus earum aliquam commodi nemo ipsum consequuntur cumque soluta magni! Sequi, obcaecati sit. Animi nulla odio, blanditiis possimus nobis est, quasi dolorum voluptatibus officia quia vel ratione quidem ab recusandae necessitatibus.</p>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div className="grid justify-center border">
-                    <div className="p-5">
-                        <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -232,7 +218,7 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -246,7 +232,21 @@ const Blog = () => {
                 <div className="grid justify-center border">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 hover:bg-primary'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+
+                        </div>
+                        <div className="mt-2 hover:text-[#F73775]">
+                            <h1 className="text-center font-bold">Auto Safety & Security</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa repellendus earum aliquam commodi nemo ipsum consequuntur cumque soluta magni! Sequi, obcaecati sit. Animi nulla odio, blanditiis possimus nobis est, quasi dolorum voluptatibus officia quia vel ratione quidem ab recusandae necessitatibus.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div className="grid justify-center border">
+                    <div className="p-5">
+                        <div className='border rounded-xl p-2 hover:bg-primary'>
+                            <img className='w-full h-[300px]' src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
