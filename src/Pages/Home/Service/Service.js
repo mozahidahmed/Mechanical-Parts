@@ -24,7 +24,7 @@ const Service = ({ service }) => {
                 <img src={img} className="h-[200px] w-full" alt="something wrong" />
                 <div className="p-2">
                     
-                    <div className="flex justify-between">
+                    <div className="flex justify-between items-center">
                         <h2 className='text-2xl font-bold'>{name}</h2>
                         <h1 className='text-[rgb(0,208,130)]'>In Stock</h1>
 

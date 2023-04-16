@@ -12,7 +12,7 @@ const SixCard = () => {
               alt=""
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 hover:text-[#F73775]">
             <h1 className="font-bold">24 Hours Library</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -27,7 +27,7 @@ const SixCard = () => {
               alt=""
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 hover:text-[#F73775]">
             <h1 className="font-bold">24 Hours Library</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -42,7 +42,7 @@ const SixCard = () => {
               alt=""
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 hover:text-[#F73775]">
             <h1 className="font-bold">24 Hours Library</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -57,7 +57,7 @@ const SixCard = () => {
               alt=""
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 hover:text-[#F73775]">
             <h1 className="font-bold">24 Hours Library</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -72,7 +72,7 @@ const SixCard = () => {
               alt=""
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 hover:text-[#F73775]">
             <h1 className="font-bold">24 Hours Library</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -87,7 +87,7 @@ const SixCard = () => {
               alt=""
             />
           </div>
-          <div className="p-2">
+          <div className="p-2 hover:text-[#F73775]">
             <h1 className="font-bold">24 Hours Library</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

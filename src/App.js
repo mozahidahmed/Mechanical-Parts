@@ -27,6 +27,7 @@ import Blog from './Pages/Blog/Blog';
 
 
 function App() {
+  
   return (
     <div className="">
       <Navbar></Navbar>

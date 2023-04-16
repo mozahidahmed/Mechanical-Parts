@@ -1,6 +1,11 @@
-import React from 'react';
+import React from 'react'
+
+
+
+
 
 const Blog = () => {
+    
     return (
         <div className='mt-6 px-6'>
            
