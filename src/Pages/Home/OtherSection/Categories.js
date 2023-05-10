@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Categories = () => {
     return (
@@ -6,9 +7,10 @@ const Categories = () => {
             <h1 className='font-bold text-2xl mb-6'>Our_Good_Categories</h1>
             <div className="grid lg:grid-cols-5 sm:grid-cols-2 md:grid-cols-2 border">
                 <div className="grid justify-center border">
+                 <Link to="/products">
                    <div className="p-5">
-                        <div className='border rounded-xl p-2 bg-yellow-400'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt="" />
+                        <div className='border rounded-xl p-2 bg-yellow-400  '>
+                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt=""  />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -17,8 +19,10 @@ const Categories = () => {
 
                         </div>
                    </div>
+                 </Link>
                 </div>
                 <div className="grid justify-center border">
+                    <Link to="/products">
                    <div className="p-5">
                         <div className='border rounded-xl p-2 bg-[#F73775]'>
                             <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-brakes.png" alt="" />
@@ -30,8 +34,10 @@ const Categories = () => {
 
                         </div>
                    </div>
+                    </Link>
                 </div>
                 <div className="grid justify-center border">
+                    <Link to="/products">
                    <div className="p-5">
                         <div className='border rounded-xl p-2 bg-yellow-400'>
                             <img src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
@@ -43,8 +49,10 @@ const Categories = () => {
 
                         </div>
                    </div>
+                    </Link>
                 </div>
                 <div className="grid justify-center border">
+                    <Link to="/products">
                    <div className="p-5">
                         <div className='border rounded-xl p-2 bg-[#F73775]'>
                             <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-filters.png" alt="" />
@@ -56,8 +64,10 @@ const Categories = () => {
 
                         </div>
                    </div>
+                    </Link>
                 </div>
                 <div className="grid justify-center border">
+                    <Link to="/products">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 bg-yellow-400'>
                             <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-car-care.png" alt="" />
@@ -69,6 +79,7 @@ const Categories = () => {
 
                         </div>
                     </div>
+                    </Link>
                 </div>
 
             </div>

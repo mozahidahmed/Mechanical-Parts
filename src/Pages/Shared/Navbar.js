@@ -20,7 +20,7 @@ const Navbar = () => {
         const menuitems=
         <>
         <li className='text-black font-bold text-1xl'><Link to="/home">Home</Link></li>
-            <li className='text-black font-bold text-1xl'><Link to="products">Products</Link></li>
+            <li className='text-black font-bold text-1xl'><Link to="/products">Products</Link></li>
         <li className='text-black font-bold text-1xl'><Link to="/blog">Blog</Link></li>
       
         
