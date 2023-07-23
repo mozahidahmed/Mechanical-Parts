@@ -98,7 +98,7 @@ const BuyNow = () => {
                                 <h2 class="card-title">{services.name}</h2>
                                 <p>availableQuantity:{services.availableQuantity}</p>
                                 <p>minimumOrderQuantity:{services.minimumOrderQuantity}</p>
-                                <p>price:{services.price}</p>
+                                <p>price:{services.price * quantity}</p>
                                 <p>{services.description}</p>
 
                             </div>
