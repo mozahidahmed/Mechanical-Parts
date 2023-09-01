@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 
 const MyOrder = ({order,index,refetch}) =>{
 
-const {productname,price,address,_id}=order;
+const {productname,price,address,_id,quantity}=order;
 
 
 const handleDelete=()=>{
@@ -36,7 +36,8 @@ const handleDelete=()=>{
 return (
         <tr>
         <th>{index+1}</th>
-       <td>{productname}</td>
+        <td>{productname}</td>
+        <td>{quantity}</td>
         <td>{price}</td>
         <td>{address}</td>
      

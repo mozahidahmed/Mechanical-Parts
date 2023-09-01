@@ -6,6 +6,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
 import { useQuery } from 'react-query';
+import Loading from "../../Shared/Loading";
 
 const Reviews = () => {
 
@@ -22,7 +23,7 @@ const Reviews = () => {
 
   }).then(res => res.json()))
   if (isLoading) {
-    return <p>reviews loading......</p>
+    return <Loading/>
   }
 
 

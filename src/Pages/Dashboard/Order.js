@@ -44,7 +44,8 @@ return <Loading></Loading>
 <tr>
   <th>No:</th>
   <th>Product name:</th>
-  <th>price</th>
+  <th>Total Quantity</th>
+  <th>Total price</th>
   <th>Address</th>
   <th>pay</th>
   <th>delete</th>

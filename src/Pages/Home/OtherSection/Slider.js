@@ -4,7 +4,7 @@ import React from 'react';
 
 const Slider = () => {
     return (
-    <div className=" bg-black px-6 py-6">
+    <div className=" bg-black px-6 py-12 grid items-center ">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12  lg:py-6 justify-center items-center">
           <div className='text-white'>
             <h1 className="lg:text-5xl font-bold mb-4 ">

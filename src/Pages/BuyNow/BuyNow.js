@@ -6,12 +6,16 @@ import auth from '../../firebase.init';
 
 
 const BuyNow = () => {
-
-
     const [user] = useAuthState(auth)
+   
+    
+
+   
 
     const handleOrder = event => {
         event.preventDefault();
+      
+
 
 
         const order = {
@@ -19,7 +23,7 @@ const BuyNow = () => {
             email: user.email,
             name: user.displayName,
             productname: event.target.productname.value,
-            price: event.target.price.value,
+            price: (event.target.price.value)*(event.target.quantity.value),
             quantity: event.target.quantity.value,
             address: event.target.address.value,
             phonenumber: event.target.phonenumber.value
@@ -52,14 +56,12 @@ const BuyNow = () => {
                 
 
             })
-
+        
     }
-
+   
 
 
     
-
-
 
 
 
@@ -83,7 +85,7 @@ const BuyNow = () => {
 
 
 
-
+ 
     return (
         <div className='flex justify-center mt-12'>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
@@ -98,7 +100,7 @@ const BuyNow = () => {
                                 <h2 class="card-title">{services.name}</h2>
                                 <p>availableQuantity:{services.availableQuantity}</p>
                                 <p>minimumOrderQuantity:{services.minimumOrderQuantity}</p>
-                                <p>price:{services.price * quantity}</p>
+                                <p>price:{services.price}</p>
                                 <p>{services.description}</p>
 
                             </div>
@@ -116,7 +118,7 @@ const BuyNow = () => {
                             <label></label>
                             <input name="email" placeholder="Y O U E M A I L " class="input input-bordered w-full max-w-xs" value={user.email} readOnly disabled />
                             <input name="productname" placeholder=" " class="input input-bordered w-full max-w-xs" value={services.name} readOnly disabled />
-                            <input name="quantity" placeholder="P R O D U C T  Q U A N T I T Y" class="input input-bordered w-full max-w-xs" type="number" required/>
+                            <input name="quantity"  placeholder="P R O D U C T  Q U A N T I T Y" class="input input-bordered w-full max-w-xs" type="number" required/>
                             <input name="price" placeholder="P R I C E " class="input input-bordered w-full max-w-xs" value={services.price} type="number" readOnly disabled />
 
                             <input name="address" placeholder="A D D R E S S " class="input input-bordered w-full max-w-xs" type="text" required/>
