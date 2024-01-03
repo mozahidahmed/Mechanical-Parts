@@ -1,5 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import img from '../../../assets/777-jpg-612_459--removebg-preview.png'
+import img2 from '../../../assets/mozahid-webMI-mozahid-webmi-_-ImgBB-_-Page-3-removebg-preview.png'
+import img3 from '../../../assets/mozahid-webMI-mozahid-webmi-_-ImgBB-_-Page-3-removebg-preview.png'
 
 const Categories = () => {
     return (
@@ -10,7 +12,7 @@ const Categories = () => {
                  <Link to="/products">
                    <div className="p-5">
                         <div className='border rounded-xl p-2 bg-yellow-400  '>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-electrics.png" alt=""  />
+                            <img src={img} alt=""  />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -25,7 +27,7 @@ const Categories = () => {
                     <Link to="/products">
                    <div className="p-5">
                         <div className='border rounded-xl p-2 bg-[#F73775]'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-brakes.png" alt="" />
+                            <img src={img2} alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -40,7 +42,7 @@ const Categories = () => {
                     <Link to="/products">
                    <div className="p-5">
                         <div className='border rounded-xl p-2 bg-yellow-400'>
-                            <img src="	https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-glowplug.png" alt="" />
+                            <img src={img} alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -55,7 +57,7 @@ const Categories = () => {
                     <Link to="/products">
                    <div className="p-5">
                         <div className='border rounded-xl p-2 bg-[#F73775]'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-filters.png" alt="" />
+                            <img src={img3} alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">
@@ -70,7 +72,7 @@ const Categories = () => {
                     <Link to="/products">
                     <div className="p-5">
                         <div className='border rounded-xl p-2 bg-yellow-400'>
-                            <img src="https://k4j3j2s7.rocketcdn.me/partdo/wp-content/uploads/2022/10/category-car-care.png" alt="" />
+                            <img src={img} alt="" />
 
                         </div>
                         <div className="mt-2 hover:text-[#F73775]">

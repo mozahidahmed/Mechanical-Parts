@@ -20,7 +20,6 @@ const Home = () => {
       <div className="px-6">
         <Categories />
         <Services></Services>
-        <LatestProduct />
         <AboutUs />
 
         <Reviews></Reviews>

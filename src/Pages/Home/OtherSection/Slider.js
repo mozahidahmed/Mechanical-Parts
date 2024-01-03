@@ -1,4 +1,4 @@
-import React from 'react';
+import img from '../../../assets/777-jpg-612_459--removebg-preview.png'
 
 
 
@@ -8,7 +8,7 @@ const Slider = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12  lg:py-6 justify-center items-center">
           <div className='text-white'>
             <h1 className="lg:text-5xl font-bold mb-4 ">
-              mechanical_parts.com
+              Mechanical_parts.com
             </h1>
 
             <p className='mb-4'>
@@ -21,8 +21,8 @@ const Slider = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://i.ibb.co/mh1JXcc/different-car-accessories-composition-removebg-preview.png"
-              alt=""
+              src={img}
+              alt="ERROR"
               className=''
 
               

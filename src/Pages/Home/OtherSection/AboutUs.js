@@ -1,21 +1,28 @@
-import React from "react";
+import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import BusinessSummary from "./BusinessSummary";
 import PeopleSummary from "./PeopleSummary";
 import SixCard from "./SixCard";
+import img from '../../../assets/About_img.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const AboutUs = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+
+  }, []);
   return (
     <div className=" bg-gray-200 px-6 p-5 rounded-xl">
       <p className="font-bold text-center mt-6 text-[red]">About Us</p>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 py-12  justify-center items-center ">
-        <div className="flex justify-center ">
+        <div data-aos="fade-right" className="flex justify-center ">
           <img
-            src="https://templatekit.mattsapii.co/padora/wp-content/uploads/sites/5/2020/12/about-image.png"
+            src={img}
             alt=""
           />
         </div>
-        <div className="">
+        <div data-aos="fade-left" className="">
           <h1 className="lg:text-5xl font-bold mb-4 ">Good_service_company</h1>
 
           <p className="mb-4">
